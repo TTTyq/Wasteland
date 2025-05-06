@@ -66,17 +66,17 @@ Material:
     - _CastShadows: 1
     - _Cull: 0
     - _DstBlend: 10
-    - _Lerp: 0.296
-    - _Normal_Strength: 0.21
+    - _Lerp: 0.435
+    - _Normal_Strength: 0.26
     - _QueueControl: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Reflection_Refraction: 1.9
-    - _Refraction: 0.53
-    - _Smoothness: 0.881
+    - _Refraction: 0.75
+    - _Smoothness: 0.761
     - _SrcBlend: 1
     - _Surface: 1
-    - _Water_Lerp: 0.5
+    - _Water_Lerp: 0.52
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 0

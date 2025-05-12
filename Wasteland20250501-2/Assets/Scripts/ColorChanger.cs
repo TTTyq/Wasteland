@@ -17,12 +17,12 @@ public class ColorChanger : MonoBehaviour
             gameObject.AddComponent<Rigidbody>();
         }
 
-        if (GetComponent<Collider>() == null)
+        if (GetComponentInChildren<Collider>() == null)
         {
             Debug.LogWarning($"{gameObject.name} 缺少 Collider 组件，请添加适当的碰撞体");
         }
 
-        objectRenderer = GetComponent<Renderer>();
+        objectRenderer = GetComponentInChildren<Renderer>();
         if (objectRenderer == null)
         {
             Debug.LogError($"{gameObject.name} 缺少 Renderer 组件！");

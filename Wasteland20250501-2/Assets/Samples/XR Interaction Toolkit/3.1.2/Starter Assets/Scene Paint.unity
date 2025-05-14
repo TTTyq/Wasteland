@@ -2680,12 +2680,12 @@ PrefabInstance:
     - target: {fileID: 5663893676086941514, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_SmoothTurnEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5663893676086941514, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_SmoothMotionEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5663893676086941514, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
@@ -2700,12 +2700,12 @@ PrefabInstance:
     - target: {fileID: 5944131804917401860, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6501755809687671949, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6520291404937146767, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
@@ -2718,6 +2718,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f,
         type: 3}
+    - target: {fileID: 6678509202150728127, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 3127728407676174906}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

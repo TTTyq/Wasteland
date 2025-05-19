@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using SatProductions; // 添加命名空间引用
 
 public class ColorPuzzleManager : MonoBehaviour
 {
@@ -11,20 +12,20 @@ public class ColorPuzzleManager : MonoBehaviour
     }
 
     [SerializeField] private List<ColorPuzzleObject> puzzleObjects = new List<ColorPuzzleObject>();
-    [SerializeField] private GameObject doorObject;
-    [SerializeField] private float doorOpenSpeed = 2f;
-    [SerializeField] private float doorOpenHeight = 3f;
+    [SerializeField] private EasyDoor doorController; // 使用 EasyDoor 组件
 
     private bool isPuzzleSolved = false;
-    private Vector3 doorInitialPosition;
-    private Vector3 doorTargetPosition;
 
     private void Start()
     {
-        if (doorObject != null)
+        // 检查并获取 EasyDoor 组件
+        if (doorController == null)
         {
-            doorInitialPosition = doorObject.transform.position;
-            doorTargetPosition = doorInitialPosition + Vector3.up * doorOpenHeight;
+            doorController = GetComponentInChildren<EasyDoor>();
+            if (doorController == null)
+            {
+                Debug.LogError("未找到 EasyDoor 组件！请确保门对象上有 EasyDoor 组件。");
+            }
         }
 
         // 为每个谜题物体添加颜色改变组件
@@ -41,18 +42,6 @@ public class ColorPuzzleManager : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (isPuzzleSolved && doorObject != null)
-        {
-            doorObject.transform.position = Vector3.Lerp(
-                doorObject.transform.position,
-                doorTargetPosition,
-                Time.deltaTime * doorOpenSpeed
-            );
-        }
-    }
-
     public void CheckPuzzleSolution()
     {
         bool allCorrect = true;
@@ -63,7 +52,6 @@ public class ColorPuzzleManager : MonoBehaviour
                 var colorChanger = puzzleObject.puzzleObject.GetComponent<ColorChanger>();
                 if (colorChanger != null)
                 {
-                    // 检查当前颜色索引是否匹配正确颜色
                     if (colorChanger.GetCurrentColorIndex() != puzzleObject.correctColorIndex)
                     {
                         allCorrect = false;
@@ -77,6 +65,16 @@ public class ColorPuzzleManager : MonoBehaviour
         {
             isPuzzleSolved = true;
             Debug.Log("Puzzle Solved! Door is opening...");
+            
+            // 使用 EasyDoor 打开门
+            if (doorController != null)
+            {
+                doorController.OpenDoor();
+            }
+            else
+            {
+                Debug.LogError("无法打开门：未找到 EasyDoor 组件！");
+            }
         }
     }
 } 

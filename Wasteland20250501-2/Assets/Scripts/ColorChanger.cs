@@ -54,6 +54,7 @@ public class ColorChanger : MonoBehaviour
     private void OnActivated(ActivateEventArgs args)
     {
         ChangeColor();
+        Debug.LogError("OnActivated");
     }
 
     public void ChangeColor()

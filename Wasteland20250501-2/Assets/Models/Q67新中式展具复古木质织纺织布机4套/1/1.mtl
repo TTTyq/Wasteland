@@ -1,0 +1,1946 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# 创建的文件:23.05.2024 15:57:53
+
+newmtl Lime__23___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Wood_Cherry_Original_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6078 0.3451 0.1647
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_DiffuseSlot.jpg
+
+newmtl Lime__Color_M05
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3725 0.4706 0.5137
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Lime___7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8078 0.7137 0.6078
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___0135_DarkGray_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4627 0.4588 0.4588
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Metal_08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_523_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_523_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Wallpaper_Thin_Brown_Stripes
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_530_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_530_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__22222
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_533_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_533_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Wood_Cherry_Original
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_537_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_537_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Textile_Rug_Stripes
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_538_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_538_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__缺省6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Mat3d66_811952_180_4898
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_541_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_541_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Mat3d66_811952_181_3820
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_542_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_542_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Mat3d66_811952_182_2368
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_543_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_543_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Mat3d66_811952_183_7100
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_544_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_544_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__0001_PaleVioletRed
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_545_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_545_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime___Color_M05_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_555_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_555_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime___Color_M07_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2275 0.2275 0.2275
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_K08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4000 0.0000 0.4000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_L02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.6000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_F04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6000 1.0000 0.1922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_A05
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_A03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.3922 0.3922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_A07
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_L16_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4000 0.0000 0.2000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_I08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.4000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_K06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.0000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_B03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.5490 0.3922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_I06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_G08_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.4000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_G06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.8000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_E08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4000 0.4000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_E06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.8000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_J02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.6000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_B07
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6000 0.1490 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_D06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.6000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_J06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4000 0.0000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_A04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.1922 0.1922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_J04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6000 0.1922 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_D03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.8471 0.3922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_C03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.6941 0.3922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_C07
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6000 0.2941 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_I01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.8000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_K01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.8000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_K03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.3922 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_L03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.3922 0.6941
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_F08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2000 0.4000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_L11
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6000 0.0000 0.2941
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_L06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.0000 0.3922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_M09
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_J08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2000 0.0000 0.4000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_M01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8863 0.8863 0.8863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_I03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3922 0.3922 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_M00
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_M03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6667 0.6667 0.6667
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Empty_material
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_A02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.6000 0.6000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_A01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_H04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1922 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_H06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_H01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_H08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.4000 0.4000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_M02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_561_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_561_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+
+newmtl Lime__Lime___27
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_562_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_562_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+
+newmtl Lime___Beige_9
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7216 0.6510 0.5137
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___281
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_0_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_0_DiffuseSlot.jpg
+
+newmtl Lime__seamless_wood_texture___hor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5490 0.3804 0.1843
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_1_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_1_DiffuseSlot.jpg
+
+newmtl Lime___175
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_2_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_2_DiffuseSlot.jpg
+
+newmtl Lime__Wood_Plywood_Knots
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_3_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_3_DiffuseSlot.jpg
+
+newmtl Lime___Translucent_Glass_Gray_34
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6784 0.6784 0.6784
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_M08_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1176 0.1176 0.1176
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_M04_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5569 0.5569 0.5569
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Metal_Rough_4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_6_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_6_DiffuseSlot.jpg
+
+newmtl Lime___Charcoal_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1373 0.1373 0.1373
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__AF007_06122005_l
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_256_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_256_DiffuseSlot.jpg
+
+newmtl Lime__Lime___537
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_257_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_257_DiffuseSlot.jpg
+
+newmtl Lime___536
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_258_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_258_DiffuseSlot.jpg
+
+newmtl Lime___538
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___DimGray_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4118 0.4118 0.4118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Formica_Laminate_Light_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8275 0.7294 0.6275
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_503_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_503_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___Color_D07_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5020 0.2824 0.1412
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_517_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_517_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime__15___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6510 0.6549 0.6627
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_520_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_520_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime__11___Defaultwr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__15___De536fault
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6431 0.6510 0.6745
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Mat3d6ss6_811952_179_6914
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2902 0.2902 0.5059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_522_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_522_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__14___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6157 0.4431 0.3176
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_524_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_524_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__0126_Violet
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8549 0.4392 0.8392
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__0096_SkyBlue
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5294 0.8078 0.9216
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__0047_Khaki
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9412 0.9020 0.5490
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__0006_Pink
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.8941 0.8824
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__11111
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_531_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_531_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__0029_BlanchedAlmond
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_532_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_532_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__0136_Charcoal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1373 0.1373 0.1373
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_534_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_534_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_535_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_535_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_536_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_536_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__ddfdf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0941 0.0941 0.0941
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_C02_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_539_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_539_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Color_D02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.8000 0.1961
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_F07
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4784 0.8000 0.1569
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_D04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.8980 0.6000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_F12
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3569 0.6000 0.1176
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_D01_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.7490 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_G12
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1176 0.6000 0.1176
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_C14_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_540_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_540_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Color_M08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1137 0.1137 0.1137
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__39
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_546_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_546_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__7275735cbab6c9c7285808586242eea3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_547_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_547_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__2689bd07c7660d72347fdb1eba297d8a
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_549_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_549_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__a8a09980b30bdceaf4ff863cc2d67a03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_552_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_552_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__451345_10_embed7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_556_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_556_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Lime___14
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8078 0.7137 0.6078
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime___13
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+
+newmtl Lime__Color_K05
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_559_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_559_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg
+
+newmtl Lime__Carpet_Loop_Pattern
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_563_Lime._Diff_562_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_563_Lime._Diff_562_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg.jpg
+
+newmtl Lime___Wood_Cherry_Original_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_5_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_5_DiffuseSlot.jpg
+
+newmtl Lime__4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3922 0.2235 0.1059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_7_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_7_DiffuseSlot.jpg
+
+newmtl Lime___178
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4863 0.3961 0.4863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_8_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_8_DiffuseSlot.jpg
+
+newmtl Lime___170
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7294 0.6078 0.4157
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_10_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_10_DiffuseSlot.jpg
+
+newmtl Lime___Wood_Floor_Light_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8196 0.7647 0.6706
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_11_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_11_DiffuseSlot.jpg
+
+newmtl Lime___Translucent_Glass_Gray_19
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8471 0.8471 0.8471
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_B06_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_259_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_259_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___Color_M01_13
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8863 0.8863 0.8863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___128
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_504_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_504_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_505_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_505_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_506_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_506_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_507_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_507_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_508_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_508_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_509_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_509_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_9
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_510_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_510_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_10
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_511_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_511_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_512_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_512_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_8
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_513_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_513_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_514_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_514_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___159_6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_515_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_515_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___0020_Red_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_518_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_518_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime___131
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8549 0.5725 0.4627
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_519_Lime._Diff_257_DiffuseSlot.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_519_Lime._Diff_257_DiffuseSlot.jpg.jpg
+
+newmtl Lime__图片1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_525_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_525_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_526_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_526_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__0107_MidnightBlue
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0980 0.0980 0.4392
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_527_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_527_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__0133_Gray
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_529_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_529_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg
+
+newmtl Lime__Color_J07
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4784 0.1569 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_J08_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5569 0.3176 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_J04_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8000 0.6000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_J03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6980 0.3961 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_J05_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8980 0.8000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Color_K04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.6000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime___Color_K02_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.1961 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Lime__Image6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_562_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_Lime._Diff_562_Lime._Diff_557_Lime._Diff_521_Lime._Diff_257_DiffuseSlot.jpg.jpg.jpg.jpg.jpg
+
+newmtl Lime___Color_A06_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_255_DiffuseSlot.jpg
+	map_Kd C:\Users\Administrator\Desktop\68\1\maps\Lime._Diff_255_DiffuseSlot.jpg

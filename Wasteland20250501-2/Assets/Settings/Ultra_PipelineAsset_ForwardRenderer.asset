@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c53165b379c3d94ca34b12cb8eb10f1, type: 3}
   m_Name: VolFx
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   _event: 550
   _format:
     enabled: 1

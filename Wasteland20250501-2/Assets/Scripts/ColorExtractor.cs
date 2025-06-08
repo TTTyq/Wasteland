@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using System.Collections;
 
-public class ColorChanger : MonoBehaviour
+public class ColorExtractor : MonoBehaviour
 {
     [SerializeField] private Material[] availableColors; // 可用的颜色材质数组
     [SerializeField] private float holdTime = 1.0f; // 长按时间
@@ -11,10 +11,10 @@ public class ColorChanger : MonoBehaviour
     private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
     private float holdTimer = 0f;
     private bool isHolding = false;
+    private BackpackManager backpackManager;
 
     private void Start()
     {
-        // 确保物体有必要的组件
         if (GetComponent<Rigidbody>() == null)
         {
             Debug.LogWarning($"{gameObject.name} 缺少 Rigidbody 组件，已自动添加");
@@ -49,10 +49,15 @@ public class ColorChanger : MonoBehaviour
                      "2. 长按达到指定时间后自动改变颜色");
         }
 
-        // 检查材质设置
         if (availableColors == null || availableColors.Length == 0)
         {
             Debug.LogError($"{gameObject.name} 没有设置可用颜色材质！请在Inspector中设置 Available Colors");
+        }
+
+        backpackManager = FindObjectOfType<BackpackManager>();
+        if (backpackManager == null)
+        {
+            Debug.LogError("BackpackManager not found in scene!");
         }
     }
 
@@ -91,22 +96,18 @@ public class ColorChanger : MonoBehaviour
     {
         if (availableColors != null && availableColors.Length > 0)
         {
+            // 记录切换前的颜色
+            Color previousColor = objectRenderer.material.color;
             currentColorIndex = (currentColorIndex + 1) % availableColors.Length;
             objectRenderer.material = availableColors[currentColorIndex];
             Debug.Log($"{gameObject.name} 颜色已更改为索引 {currentColorIndex}");
-            
-            // 通知谜题管理器检查解决方案
-            var puzzleManager = FindObjectOfType<ColorPuzzleManager>();
-            if (puzzleManager != null)
+            // 加入背包
+            if (backpackManager != null)
             {
-                puzzleManager.CheckPuzzleSolution();
+                backpackManager.AddColor(previousColor);
+                Debug.Log($"已将颜色 {previousColor} 加入背包");
             }
         }
-    }
-
-    public int GetCurrentColorIndex()
-    {
-        return currentColorIndex;
     }
 
     private void OnDestroy()
@@ -117,4 +118,4 @@ public class ColorChanger : MonoBehaviour
             grabInteractable.selectExited.RemoveListener(OnSelectExit);
         }
     }
-} 
+}

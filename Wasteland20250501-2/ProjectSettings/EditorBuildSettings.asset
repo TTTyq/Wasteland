@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Scene Paint.unity
     guid: f0b969877e168b14a8247deb7710f8a5
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/0531 MainSceneCopy.unity
+    guid: 4e577d68d4431cb4496d9ad229a7cc86
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 936045232ed6a014389e401cc37cf03c, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 02233aeccc1812342821c68cc150b2a8, type: 2}

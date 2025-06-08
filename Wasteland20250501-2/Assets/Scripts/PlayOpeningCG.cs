@@ -54,6 +54,13 @@ public class PlayOpeningCG : MonoBehaviour
                 Destroy(videoPlayer); // 彻底销毁VideoPlayer组件
             }
             if (videoScreen != null) Destroy(videoScreen);
+
+            // 初始化VR场景
+            if (VRSceneManager.Instance != null)
+            {
+                VRSceneManager.Instance.InitializeVRScene();
+            }
+
             // 播放完CG后切换到指定场景
             if (!string.IsNullOrEmpty(nextSceneName))
             {

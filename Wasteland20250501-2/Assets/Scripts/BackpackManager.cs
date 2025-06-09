@@ -6,8 +6,8 @@ public class BackpackManager : MonoBehaviour
 {
     [SerializeField] private GameObject colorSlotPrefab; // 颜色槽预制体
     [SerializeField] private Transform backpackPanel; // 背包面板
-    [SerializeField] private int maxSlots = 10; // 最大槽位数
-    [SerializeField] private float slotSpacing = 10f; // 槽位间距
+    [SerializeField] private int maxSlots =7; // 最大槽位数
+    [SerializeField] private float slotSpacing = 15f; // 槽位间距
 
     private List<Color> collectedColors = new List<Color>();
     private List<GameObject> colorSlots = new List<GameObject>();
@@ -32,15 +32,7 @@ public class BackpackManager : MonoBehaviour
         {
             GameObject slot = Instantiate(colorSlotPrefab, backpackPanel);
             colorSlots.Add(slot);
-            
-            // 设置槽位位置
-            RectTransform rectTransform = slot.GetComponent<RectTransform>();
-            if (rectTransform != null)
-            {
-                int index = colorSlots.Count - 1;
-                float yPos = -index * (rectTransform.rect.height + slotSpacing);
-                rectTransform.anchoredPosition = new Vector2(0, yPos);
-            }
+            // 不再手动设置RectTransform位置，交给VerticalLayoutGroup自动布局
         }
     }
 

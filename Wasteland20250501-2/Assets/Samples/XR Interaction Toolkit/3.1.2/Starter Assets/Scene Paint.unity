@@ -123,6 +123,54 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &44951906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44951908}
+  - component: {fileID: 44951907}
+  m_Layer: 0
+  m_Name: PaintPuzzleJudge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &44951907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44951906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d6ea163dc98cf468ad8e5f5afaceab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - areaIndex: 0
+    targetColor: {r: 0, g: 0, b: 0.3921569, a: 1}
+  doorController: {fileID: 1651983714}
+--- !u!4 &44951908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44951906}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 160.77423, y: 1.5157986, z: 1.9189057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &58889661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2370,7 +2418,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638803183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98360c9c0dcfc45418b7b5d357dbaf6d, type: 3}
   m_Name: 
@@ -2502,6 +2550,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7411a14cab0e44549be287cff0a73793, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 657589533}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7411a14cab0e44549be287cff0a73793, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 657589529}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7411a14cab0e44549be287cff0a73793, type: 3}
       insertIndex: -1
@@ -2525,7 +2576,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657589528}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9e209a34f4ba3942a8b995455e4867c, type: 3}
   m_Name: 
@@ -2720,6 +2771,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &657589533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657589528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c57c75637635774db879638f6835d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaIndex: 0
 --- !u!1 &788111584
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,6 +6024,7 @@ GameObject:
   - component: {fileID: 1591931730}
   - component: {fileID: 1591931732}
   - component: {fileID: 1591931731}
+  - component: {fileID: 1591931733}
   m_Layer: 5
   m_Name: colorSlotPrefab
   m_TagString: Untagged
@@ -6024,6 +6089,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591931729}
   m_CullTransparentMesh: 1
+--- !u!114 &1591931733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591931729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e233b441fbabcd144a4140dba5c31081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1651983708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8068073526183931155, guid: 5622fb2b12146ff46b752607c145cff2, type: 3}
@@ -9065,3 +9142,4 @@ SceneRoots:
   - {fileID: 238892333}
   - {fileID: 638803185}
   - {fileID: 1032179635}
+  - {fileID: 44951908}

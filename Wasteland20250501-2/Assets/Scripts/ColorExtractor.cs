@@ -11,7 +11,8 @@ public class ColorExtractor : MonoBehaviour
     private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
     private float holdTimer = 0f;
     private bool isHolding = false;
-    private BackpackManager backpackManager;
+    private BodySocketInventory bodySocketInventory;
+    private Material currentMaterial;
 
     private void Start()
     {
@@ -54,10 +55,10 @@ public class ColorExtractor : MonoBehaviour
             Debug.LogError($"{gameObject.name} 没有设置可用颜色材质！请在Inspector中设置 Available Colors");
         }
 
-        backpackManager = FindObjectOfType<BackpackManager>();
-        if (backpackManager == null)
+        bodySocketInventory = FindObjectOfType<BodySocketInventory>();
+        if (bodySocketInventory == null)
         {
-            Debug.LogError("BackpackManager not found in scene!");
+            Debug.LogError("BodySocketInventory not found in scene!");
         }
     }
 
@@ -96,16 +97,17 @@ public class ColorExtractor : MonoBehaviour
     {
         if (availableColors != null && availableColors.Length > 0)
         {
-            // 记录切换前的颜色
-            Color previousColor = objectRenderer.material.color;
+            // 记录切换前的材质
+            Material previousMaterial = objectRenderer.material;
             currentColorIndex = (currentColorIndex + 1) % availableColors.Length;
             objectRenderer.material = availableColors[currentColorIndex];
-            Debug.Log($"{gameObject.name} 颜色已更改为索引 {currentColorIndex}");
-            // 加入背包
-            if (backpackManager != null)
+            Debug.Log($"{gameObject.name} 材质已更改为索引 {currentColorIndex}");
+            
+            // 将之前的材质添加到背包系统
+            if (bodySocketInventory != null)
             {
-                backpackManager.AddColor(previousColor);
-                Debug.Log($"已将颜色 {previousColor} 加入背包");
+                bodySocketInventory.AddColorOrb(previousMaterial);
+                Debug.Log($"已将材质加入背包");
             }
         }
     }

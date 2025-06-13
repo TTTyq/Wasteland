@@ -10,6 +10,8 @@ public class OrbMaterialDragger : MonoBehaviour
     private Vector3 originalLocalPosition;
     private Quaternion originalLocalRotation;
     private Transform originalParent;
+    private bool isPainting = false;
+    private PaintableTexture currentPaintable;
 
     private void Awake()
     {
@@ -22,19 +24,54 @@ public class OrbMaterialDragger : MonoBehaviour
         if (grabInteractable != null)
         {
             grabInteractable.selectExited.AddListener(OnReleased);
+            grabInteractable.activated.AddListener(OnActivated);
+            grabInteractable.deactivated.AddListener(OnDeactivated);
         }
+    }
+
+    private void Update()
+    {
+        if (isPainting && currentPaintable != null)
+        {
+            // 持续绘制
+            currentPaintable.PaintAtPosition(transform.position, orbEffect.CurrentMaterial);
+        }
+    }
+
+    private void OnActivated(ActivateEventArgs args)
+    {
+        // 检查是否在可绘制物体上
+        Ray ray = new Ray(transform.position, Vector3.down);
+        if (Physics.Raycast(ray, out RaycastHit hit, 2f))
+        {
+            PaintableTexture paintable = hit.collider.GetComponent<PaintableTexture>();
+            if (paintable != null)
+            {
+                isPainting = true;
+                currentPaintable = paintable;
+            }
+        }
+    }
+
+    private void OnDeactivated(DeactivateEventArgs args)
+    {
+        isPainting = false;
+        currentPaintable = null;
     }
 
     private void OnReleased(SelectExitEventArgs args)
     {
-        // 射线检测orb当前位置下方的物体
-        Ray ray = new Ray(transform.position, Vector3.down);
-        if (Physics.Raycast(ray, out RaycastHit hit, 2f))
+        // 如果不是在绘制状态，则检查是否需要转移材质
+        if (!isPainting)
         {
-            Renderer targetRenderer = hit.collider.GetComponent<Renderer>();
-            if (targetRenderer != null && orbEffect != null)
+            Ray ray = new Ray(transform.position, Vector3.down);
+            if (Physics.Raycast(ray, out RaycastHit hit, 2f))
             {
-                targetRenderer.material = orbEffect.CurrentMaterial;
+                Renderer targetRenderer = hit.collider.GetComponent<Renderer>();
+                if (targetRenderer != null && orbEffect != null)
+                {
+                    targetRenderer.material = orbEffect.CurrentMaterial;
+                }
             }
         }
 

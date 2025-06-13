@@ -213,13 +213,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa37e5dd1bf0d145b8bcca23b062baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftController: {fileID: 1943556754}
-  rightController: {fileID: 752435609}
+  playerCamera: {fileID: 609775024}
   orbPrefab: {fileID: 9036370055293614553, guid: 76a34193c13c80e44838808a0ced1cc2, type: 3}
-  orbRotationSpeed: 30
-  orbRadius: 0.3
-  orbHeight: 0.5
-  orbDistanceFromController: 0.3
+  orbCount: 7
+  orbSpacing: 0.3
+  orbYOffset: -0.5
+  orbForwardOffset: 0.8
+  orbRotateSpeed: 5
 --- !u!4 &73266162
 Transform:
   m_ObjectHideFlags: 0
@@ -1690,8 +1690,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableColors:
-  - {fileID: 2100000, guid: c3dc5c3c09fa99042a74de14ff930665, type: 2}
-  - {fileID: 5112733418251448368, guid: 8178a3ddaf14bdc47b83ee58d3d6a6bb, type: 3}
+  - {fileID: 2678856896640451388, guid: 92d6815c8c0086b44b0ebc008552e157, type: 3}
+  - {fileID: -3375974938985413609, guid: 92d6815c8c0086b44b0ebc008552e157, type: 3}
+  - {fileID: 2774664425119555479, guid: 92d6815c8c0086b44b0ebc008552e157, type: 3}
+  - {fileID: -7557985434531606284, guid: 92d6815c8c0086b44b0ebc008552e157, type: 3}
+  - {fileID: -88026658384330872, guid: 92d6815c8c0086b44b0ebc008552e157, type: 3}
+  - {fileID: 7767202847995692271, guid: 92d6815c8c0086b44b0ebc008552e157, type: 3}
   holdTime: 1
 --- !u!1 &144254102
 GameObject:
@@ -3223,14 +3227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c57c75637635774db879638f6835d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaIndex: 0
-  image: {fileID: 0}
-  meshRenderer: {fileID: 0}
---- !u!4 &752435609 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1670256625, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 609775023}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &788111584
 GameObject:
   m_ObjectHideFlags: 0
@@ -7185,11 +7181,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!4 &1943556754 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 202364688, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 609775023}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &196977305468683332
 GameObject:
   m_ObjectHideFlags: 0

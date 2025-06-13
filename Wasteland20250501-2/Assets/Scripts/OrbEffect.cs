@@ -109,4 +109,6 @@ public class OrbEffect : MonoBehaviour
             Destroy(orbMaterial);
         }
     }
+
+    public Material CurrentMaterial => orbRenderer != null ? orbRenderer.material : null;
 } 

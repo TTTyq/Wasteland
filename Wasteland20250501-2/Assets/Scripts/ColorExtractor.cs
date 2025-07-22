@@ -1,70 +1,82 @@
+// ===============================================
+// 3. ColorExtractor.cs - 保持原有修复
+// ===============================================
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using System.Collections;
+
 
 public class ColorExtractor : MonoBehaviour
 {
-    [SerializeField] private Material[] availableColors; // 可用的颜色材质数组
-    [SerializeField] private float holdTime = 1.0f; // 长按时间
+    [SerializeField] private Material[] availableColors;
+    [SerializeField] private float holdTime = 1.0f;
+    [SerializeField] private BodySocketInventory bodySocketInventory;
+
     private int currentColorIndex = 0;
     private Renderer objectRenderer;
-    private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
+    private XRGrabInteractable grabInteractable;
     private float holdTimer = 0f;
     private bool isHolding = false;
-    private BodySocketInventory bodySocketInventory;
-    private Material currentMaterial;
+    private bool isExtracting = false;
 
-    private void Start()
+    // 添加冷却时间防止重复触发
+    private float extractCooldown = 0.5f;
+    private float lastExtractTime = 0f;
+
+    // 确保只有一个实例在处理
+    private static bool isAnyExtractorActive = false;
+
+    void Start()
     {
-        if (GetComponent<Rigidbody>() == null)
-        {
-            Debug.LogWarning($"{gameObject.name} 缺少 Rigidbody 组件，已自动添加");
-            gameObject.AddComponent<Rigidbody>();
-        }
-
-        if (GetComponentInChildren<Collider>() == null)
-        {
-            Debug.LogWarning($"{gameObject.name} 缺少 Collider 组件，请添加适当的碰撞体");
-        }
-
         objectRenderer = GetComponentInChildren<Renderer>();
-        if (objectRenderer == null)
-        {
-            Debug.LogError($"{gameObject.name} 缺少 Renderer 组件！");
-            return;
-        }
+        grabInteractable = GetComponent<XRGrabInteractable>();
 
-        grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
-        if (grabInteractable == null)
-        {
-            Debug.LogWarning($"{gameObject.name} 缺少 XRGrabInteractable 组件，已自动添加");
-            grabInteractable = gameObject.AddComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
-        }
-        
         if (grabInteractable != null)
         {
+            // 设置XRI 3.1.2要求的最小值
+            grabInteractable.attachEaseInTime = 0.15f;
+
+            // 清除现有监听器防止重复
+            grabInteractable.selectEntered.RemoveAllListeners();
+            grabInteractable.selectExited.RemoveAllListeners();
+
             grabInteractable.selectEntered.AddListener(OnSelectEnter);
             grabInteractable.selectExited.AddListener(OnSelectExit);
-            Debug.Log($"{gameObject.name} 已设置完成，可以使用VR手柄进行交互：\n" +
-                     "1. 使用 Grip 键（手柄侧面按钮）抓取物体并长按\n" +
-                     "2. 长按达到指定时间后自动改变颜色");
-        }
 
-        if (availableColors == null || availableColors.Length == 0)
-        {
-            Debug.LogError($"{gameObject.name} 没有设置可用颜色材质！请在Inspector中设置 Available Colors");
+            Debug.Log($"ColorExtractor initialized on {gameObject.name}");
         }
-
-        bodySocketInventory = FindObjectOfType<BodySocketInventory>();
-        if (bodySocketInventory == null)
+        else
         {
-            Debug.LogError("BodySocketInventory not found in scene!");
+            Debug.LogError($"ColorExtractor on {gameObject.name}: No XRGrabInteractable found!");
         }
     }
 
     private void OnSelectEnter(SelectEnterEventArgs args)
     {
-        Debug.Log("Select enter event triggered");
+        // 全局锁检查
+        if (isAnyExtractorActive)
+        {
+            Debug.Log("Another extractor is active, ignoring");
+            return;
+        }
+
+        // 冷却检查
+        if (Time.time - lastExtractTime < extractCooldown)
+        {
+            Debug.Log("ColorExtractor: Still in cooldown, ignoring extract attempt");
+            return;
+        }
+
+        if (isExtracting)
+        {
+            Debug.Log("ColorExtractor: Already extracting, ignoring");
+            return;
+        }
+
+        Debug.Log($"ColorExtractor: Starting extraction on {gameObject.name}");
+        isExtracting = true;
+        isAnyExtractorActive = true;
         isHolding = true;
         holdTimer = 0f;
         StartCoroutine(HoldTimer());
@@ -72,14 +84,14 @@ public class ColorExtractor : MonoBehaviour
 
     private void OnSelectExit(SelectExitEventArgs args)
     {
-        Debug.Log("Select exit event triggered");
+        Debug.Log($"ColorExtractor: Stopping extraction on {gameObject.name}");
         isHolding = false;
-        holdTimer = 0f;
+        isExtracting = false;
+        isAnyExtractorActive = false;
     }
 
     private IEnumerator HoldTimer()
     {
-        Debug.Log("Hold timer started");
         while (isHolding && holdTimer < holdTime)
         {
             holdTimer += Time.deltaTime;
@@ -88,36 +100,46 @@ public class ColorExtractor : MonoBehaviour
 
         if (isHolding)
         {
-            Debug.Log("Hold time reached, changing color");
             ChangeColor();
         }
+
+        // 重置状态
+        isExtracting = false;
+        isAnyExtractorActive = false;
     }
 
     public void ChangeColor()
     {
-        if (availableColors != null && availableColors.Length > 0)
+        if (availableColors != null && availableColors.Length > 0 && bodySocketInventory != null)
         {
-            // 记录切换前的材质
             Material previousMaterial = objectRenderer.material;
             currentColorIndex = (currentColorIndex + 1) % availableColors.Length;
             objectRenderer.material = availableColors[currentColorIndex];
-            Debug.Log($"{gameObject.name} 材质已更改为索引 {currentColorIndex}");
-            
-            // 将之前的材质添加到背包系统
-            if (bodySocketInventory != null)
-            {
-                bodySocketInventory.AddColorOrb(previousMaterial);
-                Debug.Log($"已将材质加入背包");
-            }
+
+            // 更新最后提取时间
+            lastExtractTime = Time.time;
+
+            bodySocketInventory.AddColorOrb(previousMaterial);
+            Debug.Log($"ColorExtractor: Successfully extracted color from {gameObject.name}");
+        }
+        else
+        {
+            Debug.LogError("ColorExtractor: Missing required components for color change");
         }
     }
 
-    private void OnDestroy()
+    void OnDestroy()
     {
         if (grabInteractable != null)
         {
             grabInteractable.selectEntered.RemoveListener(OnSelectEnter);
             grabInteractable.selectExited.RemoveListener(OnSelectExit);
+        }
+
+        // 清理全局状态
+        if (isExtracting)
+        {
+            isAnyExtractorActive = false;
         }
     }
 }
